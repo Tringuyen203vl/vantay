@@ -43,9 +43,9 @@
   </table>
 
   <script>
-    const channelID = "https://thingspeak.mathworks.com/channels/2783657"; // Thay bằng Channel ID của bạn
+    const channelID = "2783657"; // Thay bằng Channel ID của bạn
     const readAPIKey = "FZUQDUYN7ON76T8P"; // Thay bằng Read API Key của bạn
-    const apiURL = `https://api.thingspeak.com/channels/${channelID}/feeds.json?api_key=${readAPIKey}&results=20`;
+    const apiURL = `https://thingspeak.mathworks.com/channels/2783657`;
 
     fetch(apiURL)
       .then(response => response.json())
